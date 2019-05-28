@@ -24,7 +24,7 @@ Usage:
   - http://127.0.0.1:5000/getUserRecommandation?userId=*&number=* : return a dataFrame into a JSON object with number recommandation for userId
 
 
-# Pain Point & Improvement
+# Pain Points & Improvement
 
 - The evaluation function in the research part is not good: calculating an RMSE based on Ids never brought anything good!
 It would have been preferable to set up an evaluation function based on the number of similarities in the train set.
